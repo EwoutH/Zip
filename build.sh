@@ -1,8 +1,13 @@
 #!/bin/bash
 
 # **** Update me when new Xcode versions are released! ****
-PLATFORM="platform:iOS Simulator, id:B40F7090-26EE-4D2E-A7A2-C13E10EDA669, OS:12.1, name:iPhone XS"
 SDK="iphonesimulator"
+
+matrix:
+  include:
+   - PLATFORM="destination iOS Simulator, id:B40F7090-26EE-4D2E-A7A2-C13E10EDA669, OS:12.1, name:iPhone XS"
+   - PLATFORM="destination iOS Simulator, id:2CE7B5F1-453E-4776-A551-F8AE61234E8F, OS:12.1, name:iPad Pro (12.9-inch) (3rd generation)"
+   - PLATFORM="destination iOS Simulator, id:B40F7090-26EE-4D2E-A7A2-C13E10EDA669, OS:12.1, name:iPhone X"
 
 
 # It is pitch black.
