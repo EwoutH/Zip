@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # **** Update me when new Xcode versions are released! ****
-PLATFORM="platform=iOS Simulator,OS:12.1,name:iPhone XS"
+PLATFORM="platform:iOS Simulator, id:B40F7090-26EE-4D2E-A7A2-C13E10EDA669, OS:12.1, name:iPhone XS"
 SDK="iphonesimulator"
 
 
